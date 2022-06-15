@@ -19,7 +19,7 @@ html(lang="ja")
       p #{post.content}
       - let isDeletable = (user === post.postedBy || user === 'admin')
       if isDeletable
-        form(method="post" action="/posts?delete=1")
+        form(method="post" action="/posts/delete")
           input(type="hidden" name="id" value=post.id)
           button(type="submit") 削除
       hr
