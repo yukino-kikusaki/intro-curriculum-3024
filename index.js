@@ -1,5 +1,5 @@
 'use strict';
-const http = require('http');
+const http = require('node:http');
 const auth = require('http-auth');
 const router = require('./lib/router');
 

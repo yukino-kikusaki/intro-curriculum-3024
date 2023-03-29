@@ -6,13 +6,11 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "http-auth": "^4.1.9",
-    "pg": "8.5.1",
-    "pg-hstore": "2.3.3",
-    "pug": "3.0.2",
-    "sequelize": "6.5.0"
+    "@prisma/client": "4.11.0",
+    "http-auth": "4.2.0",
+    "prisma": "4.11.0",
+    "pug": "3.0.2"
   }
 }
